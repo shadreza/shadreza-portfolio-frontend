@@ -1,0 +1,23 @@
+.navbar{
+    background: #30e3ca !important;
+}
+
+.navbar-text{
+    color: black !important;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+}
+
+.navbar-text-toggler{
+    color: black !important;
+    font-family: 'Dosis', sans-serif;
+    margin: 0 1rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+
+.navbar-text-toggler:hover{
+    color: #e4f9f5 !important;
+}
