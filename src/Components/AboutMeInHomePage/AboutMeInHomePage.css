@@ -1,0 +1,52 @@
+.aboutMeInHomeDiv{
+    margin: 2rem auto;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+.innerMsg{
+    margin: auto;
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+.colorRed{
+    color: orangered;
+}
+
+.colorOrange{
+    color: orange;
+}
+
+.colorBlue{
+    color: skyblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.infoGrid{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-gap: 2rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+.heading{
+    font-size: 2rem;
+    color: #ffc996;
+}
+
+.images{
+    width: 12%;
+}
+

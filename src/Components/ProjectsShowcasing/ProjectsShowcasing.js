@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectsShowcasing = () => {
     return (
-        <div>
+        <div className="allProjectsDiv">
             
         </div>
     );

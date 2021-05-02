@@ -1,0 +1,38 @@
+.expertiseDiv{
+    margin: auto;
+    text-align: center;
+    color: snow;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    color: orangered;
+}
+
+.gridCntainer{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: auto;
+    font-size: 1.75rem;
+}
+
+.msg{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1rem;
+    justify-items: center;
+    background: white;
+    width: 80%;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+}
+
+.msg img{
+    width: 60%;
+}
+
+.msg2 img{
+    width: 80%;
+}

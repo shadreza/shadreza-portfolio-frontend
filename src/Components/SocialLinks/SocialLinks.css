@@ -1,0 +1,18 @@
+.socialLinksDiv{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 35%;
+    right: 0%;
+}
+
+.socialLinksDiv img{
+    width: 2.5rem;
+    margin: 1rem;
+}
+
+.socialLinksDiv img:hover{
+    border:#ffc996 thick solid;
+	padding: 2 px;
+    border-radius: 100%;
+}
