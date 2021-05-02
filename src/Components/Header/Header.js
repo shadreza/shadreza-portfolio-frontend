@@ -15,7 +15,6 @@ import AboutMe from '../AboutMe/AboutMe';
 import ContactMe from '../ContactMe/ContactMe';
 import ProjectsShowcasing from '../ProjectsShowcasing/ProjectsShowcasing';
 import Blogs from '../Blogs/Blogs';
-import FormalFiles from '../FormalFiles/FormalFiles';
 
 
 
@@ -57,7 +56,7 @@ const Header = () => {
                 <Route path='/'>
                     <Homepage></Homepage>
                 </Route>
-                <Route path='/about-me'>
+                {/* <Route path='/about-me'>
                     <AboutMe></AboutMe>
                 </Route>
                 <Route path='/projects'>
@@ -71,7 +70,7 @@ const Header = () => {
                 </Route>
                 <Route path='/contact-me'>
                     <ContactMe></ContactMe>
-                </Route>
+                </Route> */}
             </Switch>
 
         </Router>

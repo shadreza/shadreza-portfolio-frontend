@@ -1,0 +1,15 @@
+.pdfDiv{
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.pdfs{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
