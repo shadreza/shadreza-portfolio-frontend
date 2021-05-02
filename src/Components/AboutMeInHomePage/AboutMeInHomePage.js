@@ -4,12 +4,16 @@ import './AboutMeInHomePage.css';
 
 const AboutMeInHomePage = () => {
     return (
-        <div className="aboutMeInHomeDiv">
+                
+                    <div className="aboutMeInHomeDiv">
+
                         <h1>Know Me!</h1>
                         <br/>
                         <br/>
                         <br/>
+                        
                         <div className="infoGrid">
+                         
                             <div className="leftInfo">
                                 <img className="images" src="https://www.flaticon.com/svg/vstatic/svg/3043/3043536.svg?token=exp=1619946839~hmac=a9689315f065de1bcb6d70d7a55e2564" alt=""/>
                                 <p className="heading">Keep Updated</p>
@@ -24,6 +28,7 @@ const AboutMeInHomePage = () => {
                                     <p>Being a CSE student I have the love for code from my college life and Have solved more than <a href="https://www.stopstalk.com/user/profile/shadreza"><span className='colorRed'>410+ problems</span></a> around many famous Online Judges and also have the passion of <span className="colorOrange">problem solving</span> and <span className="colorBlue">critical thinking</span></p>
                                 </div>
                             </div>
+                           
                             <div className="leftInfo">
                                 <img className="images" src="https://www.flaticon.com/svg/vstatic/svg/3655/3655586.svg?token=exp=1619947252~hmac=37cd7c050b77007a3b6274443eee618e" alt=""/>
                                 <p className="heading">Fast Learner</p>
@@ -38,6 +43,7 @@ const AboutMeInHomePage = () => {
                                     <p>For any development purpose I am aware of teamwork and great communication skills. Have worked personally and in teams and love to bond friendship with the other teammates and excell at work</p>
                                 </div>
                             </div>
+                    
                             <div className="leftInfo">
                                 <img className="images" src="https://image.flaticon.com/icons/png/128/3534/3534031.png" alt=""/>
                                 <p className="heading">Education</p>
@@ -57,7 +63,9 @@ const AboutMeInHomePage = () => {
                             </div>
                         </div>
                     
-        </div>
+                    </div>
+                
+      
     );
 };
 

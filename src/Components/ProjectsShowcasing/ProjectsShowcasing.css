@@ -1,0 +1,17 @@
+.headingOfProject{
+    color: mediumslateblue;
+}
+
+.allProjectsDiv{
+    margin: auto;
+    text-align: center;
+}
+
+.gridFormat{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: auto;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+}

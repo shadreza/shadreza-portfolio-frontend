@@ -5,6 +5,7 @@ import Intro from '../Intro/Intro';
 import SocialLinks from '../SocialLinks/SocialLinks';
 import './Homepage.css';
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
+import ProjectsShowcasing from '../ProjectsShowcasing/ProjectsShowcasing';
 
 
 const Homepage = () => {
@@ -21,6 +22,8 @@ const Homepage = () => {
                 <AboutMeInHomePage></AboutMeInHomePage>
                 <br/><br/><br/>
                 <Expertise></Expertise>
+                <br/><br/><br/>
+                <ProjectsShowcasing></ProjectsShowcasing>
             </ScrollContainer>
             <SocialLinks></SocialLinks>
         </div>
