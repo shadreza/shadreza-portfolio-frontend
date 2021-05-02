@@ -22,9 +22,7 @@ const SocialLinks = () => {
 
             <a href="https://www.stopstalk.com/user/profile/shadreza">
                 <img src={stopstalk} alt=""/>
-            </a>
-            
-            
+            </a>           
         </div>
     );
 };
