@@ -10,7 +10,7 @@ const SingleProject = (passedParams) => {
     return (
         <div>
             {
-                    <Card style={{ width: '25rem' }}>
+                    <Card className="card" style={{ width: '38rem' }}>
                         <Carousel fade>
                             {
                                 infoArray.image.map(currentImage =>
@@ -25,14 +25,18 @@ const SingleProject = (passedParams) => {
                             }
                         </Carousel>
                         <Card.Body>
-                            <Card.Title>{infoArray.name}</Card.Title>
+                            <Card.Title><strong>{infoArray.name}</strong></Card.Title>
 
                             <Card.Text>
                                 {
-                                    infoArray.description.map(currentDescription=><p>currentDescription</p>)
+                                    infoArray.description.map(descriptionOfNow=><p>{descriptionOfNow}</p>)
                                 }
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <div className="btnFlex">
+                                {infoArray.gitlinks.length >= 1 && <a target="blank" href={infoArray.gitlinks[0]}><Button variant="primary">Frontend Code</Button></a>}
+                                {infoArray.gitlinks.length === 2 && <a target="blank" href={infoArray.gitlinks[1]}><Button variant="primary">Backend Code</Button></a>}
+                                {infoArray.livesite !== "" && <a target="blank" href={infoArray.livesite}><Button variant="success">Livesite Link</Button></a>}
+                            </div>
                         </Card.Body>
                     </Card>    
             }
