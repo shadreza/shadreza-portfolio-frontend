@@ -50,3 +50,8 @@ a:hover{
     width: 12%;
 }
 
+@media only screen and (max-width: 992px) {
+    .infoGrid{
+        grid-template-columns:auto;
+    }
+}

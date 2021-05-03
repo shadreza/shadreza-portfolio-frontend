@@ -8,7 +8,7 @@ const SingleProject = (passedParams) => {
     const infoArray = passedParams.dataArray;
     console.log(infoArray)
     return (
-        <div>
+        <div className="mainDiv">
             {
                     <Card className="card" style={{ width: '38rem' }}>
                         <Carousel fade>

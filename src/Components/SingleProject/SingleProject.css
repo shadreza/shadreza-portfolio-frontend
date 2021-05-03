@@ -22,3 +22,16 @@
 img{
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 992px) {
+    .card{
+        width:100% !important;
+    }
+    .card img{
+        width:100% !important;
+    }
+    .mainDiv{
+        width: auto !important;
+        margin: auto;
+    }
+}

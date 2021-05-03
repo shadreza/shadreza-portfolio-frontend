@@ -11,7 +11,7 @@ const PDFFiles = () => {
             <h1>My Docs</h1>
             <br/><br/><br/>
             <div className="pdfs">
-            <Card className="card" style={{ width: '38rem' }}>
+            <Card className="cardPdf" style={{ width: '38rem' }}>
                         <Carousel fade>
                         <Carousel.Item>
                             <img className="d-block w-100" src={cv} alt="CV" />
@@ -34,7 +34,7 @@ const PDFFiles = () => {
                         </Card.Body>
                     </Card>
                     
-                    <Card className="card" style={{ width: '38rem' }}>
+                    <Card className="cardPdf" style={{ width: '38rem' }}>
                         <Carousel fade>
                             <Carousel.Item>
                                         <img

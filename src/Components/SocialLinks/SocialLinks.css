@@ -4,6 +4,7 @@
     position: fixed;
     top: 35%;
     right: 0%;
+    z-index: 1;
 }
 
 .socialLinksDiv img{

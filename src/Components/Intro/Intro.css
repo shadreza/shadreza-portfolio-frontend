@@ -5,6 +5,36 @@
     padding: 0.5rem;
 }
 
+@media only screen and (max-width: 992px) {
+    .introDiv{
+        grid-template-columns: 35% 65%;
+        grid-gap: 1rem;
+        width:100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .myName{
+        font-size:3rem !important;
+    }
+    .hello{
+        font-size:2rem !important;
+    }
+    .rightPic img{
+        width: 150% !important;
+        text-align: left !important;
+        margin-right:100% !important;
+    }
+    .leftText{
+        text-align: right !important;
+        margin: 0;
+        margin-left: auto !important;
+        justify-self: right !important;
+    }
+    .profession{
+        font-size: 1.5rem !important;
+    }
+}
+
 .leftText{
     justify-self: center;
     align-items: center;

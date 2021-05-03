@@ -7,7 +7,7 @@ const Expertise = () => {
             <h1>Expertise</h1>
             <br/><br/><br/><br/><br/>
             <div className="gridCntainer">
-                <div className="left">
+                <div className="left blocks">
                     <img src="https://image.flaticon.com/icons/png/128/1260/1260243.png" alt=""/>
                     <br/><br/>
                     <p>Front-End</p>
@@ -21,7 +21,7 @@ const Expertise = () => {
                         <img src="https://image.pngaaa.com/896/2507896-middle.png" alt="React"/>
                     </div>
                 </div>
-                <div className="middle">
+                <div className="middle blocks">
                 <img src="https://image.flaticon.com/icons/png/128/889/889047.png" alt=""/>
                 <br/><br/>
                     <p>Back-End</p>
@@ -35,7 +35,7 @@ const Expertise = () => {
                     </div>
                     
                 </div>
-                <div className="right">
+                <div className="right blocks">
                 <img src="https://image.flaticon.com/icons/png/128/881/881541.png" alt=""/>
                 <br/><br/>
                     <p>Tools</p>

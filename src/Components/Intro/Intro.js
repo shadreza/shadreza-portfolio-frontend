@@ -9,16 +9,18 @@ import useTypewriter from "react-typewriter-hook"
 const Intro = () => {
     return (
         <div className="introDiv">
-            
+            <div className="rightPic">
+                <img src={pic1} alt=""/>
+            </div>
             <div className="leftText">
                 <p className="hello">Hello I'm</p>
                 <p className="myName">{useTypewriter("Shad Reza")}</p>
                 <p className="profession">Web <span className="devPortion">Developer</span></p>
                 <p className="messg">available for hiring as <span className="fullTime">full-time</span> web developer!</p>
             </div>
-            <div className="rightPic">
+            {/* <div className="rightPic">
                 <img src={pic1} alt=""/>
-            </div>
+            </div> */}
         </div>
     );
 };
