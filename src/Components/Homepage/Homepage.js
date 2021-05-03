@@ -7,6 +7,7 @@ import './Homepage.css';
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 import ProjectsShowcasing from '../ProjectsShowcasing/ProjectsShowcasing';
 import PDFFiles from '../PDFFiles/PDFFiles';
+import Form from '../Form/EmailForm';
 
 
 const Homepage = () => {
@@ -26,6 +27,7 @@ const Homepage = () => {
                 <br/><br/><br/>
                 <ProjectsShowcasing></ProjectsShowcasing>
                 <PDFFiles></PDFFiles>
+                <Form></Form>
             </ScrollContainer>
             <SocialLinks></SocialLinks>
         </div>

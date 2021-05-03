@@ -1,0 +1,19 @@
+.formDiv{
+    margin: auto;
+    padding:1rem;
+    text-align:center;
+    width: 70%;
+    margin-top:12%;
+}
+
+.textarea{
+    margin-top: 0.5rem;
+}
+
+.formStarts{
+    margin-top:2rem;
+}
+
+.sunmitButton{
+    margin-top:0.5rem;
+}
