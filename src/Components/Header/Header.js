@@ -29,7 +29,7 @@ const Header = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
                             <LinkContainer to='/'>
-                                <Nav.Link className="navbar-text-toggler">Home</Nav.Link>
+                            <Nav.Link className="navbar-text-toggler">Home</Nav.Link>
                             </LinkContainer>
                             <LinkContainer to='/about-me'>
                             <Nav.Link className="navbar-text-toggler">About me</Nav.Link>
@@ -46,7 +46,6 @@ const Header = () => {
                             <LinkContainer to='/contact-me'>
                             <Nav.Link className="navbar-text-toggler">Contact me</Nav.Link>
                             </LinkContainer>                           
-                            
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -56,7 +55,7 @@ const Header = () => {
                 <Route path='/'>
                     <Homepage></Homepage>
                 </Route>
-                {/* <Route path='/about-me'>
+                <Route path='/about-me'>
                     <AboutMe></AboutMe>
                 </Route>
                 <Route path='/projects'>
@@ -65,12 +64,9 @@ const Header = () => {
                 <Route path='/blogs'>
                     <Blogs></Blogs>
                 </Route>
-                <Route path='/docs'>
-                    <FormalFiles></FormalFiles>
-                </Route>
                 <Route path='/contact-me'>
                     <ContactMe></ContactMe>
-                </Route> */}
+                </Route>
             </Switch>
 
         </Router>

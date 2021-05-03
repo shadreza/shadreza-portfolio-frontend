@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './EmailForm.css';
 import Form from 'react-bootstrap/Form';
 import { Button, Col, FormControl, InputGroup } from 'react-bootstrap';
@@ -12,10 +12,6 @@ const EmailForm = () => {
         senderEmail : "annonymus@email.com" ,
         sendedMessage : ""
     }
-
-    // const [senderName , setSenderName] = useState("");
-    // const [senderMail , setSenderMail] = useState("");
-    // const [sentMessage , setSentMessage] = useState("");
 
     const sendEmail = () =>{
         const senderName = document.getElementById('inlineFormInputName').value;
