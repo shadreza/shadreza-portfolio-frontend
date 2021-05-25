@@ -15,12 +15,14 @@ const Homepage = () => {
     const FadeUp = batch(Fade(), Move(), Sticky());
     return (
         <div className="homepageDiv">
-            <ScrollContainer>
+            {/* <ScrollContainer>
                 <ScrollPage page={0}>
                     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, 200))}>
-                        <Intro></Intro>
-                    </Animator>
-                </ScrollPage>
+                        
+                    </Animator> */}
+                    
+                {/* </ScrollPage> */}
+                <Intro></Intro>
                 <AboutMeInHomePage></AboutMeInHomePage>
                 <br/><br/><br/>
                 <Expertise></Expertise>
@@ -28,7 +30,7 @@ const Homepage = () => {
                 <ProjectsShowcasing></ProjectsShowcasing>
                 <PDFFiles></PDFFiles>
                 <Form></Form>
-            </ScrollContainer>
+            {/* </ScrollContainer> */}
             <SocialLinks></SocialLinks>
         </div>
     );
